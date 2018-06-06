@@ -1,6 +1,11 @@
 Hello! 
 Welcome to my repository! 
 Here you will find solutions of Code Fights!
+Not any of this problems are mine, they are of Codefights!
+I did just the solutions!
+Here is their page, visite them, the page is fantastic! ;)
+---->   https://codefights.com   <----
+
 Visit my personal page and follow me on social networks
 ---->   LautaroNavarro.github.io   <----
 Thanks for watching!
