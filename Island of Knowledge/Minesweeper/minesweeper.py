@@ -8,17 +8,14 @@ def minesweeper(Matrix):
 			matrisResultante[i].append(0)
 			for n in range( i -1, i + 2):
 				for m in range(j - 1, j + 2):
-					if n == i and m == j:
+					if n == i and m == j or n < 0 or m < 0:
 						pass
 					else:
-						if n < 0 or m < 0:
+						try:
+							if Matrix[n][m]:
+								matrisResultante[i][j] += 1
+						except Exception as e:
 							pass
-						else:
-							try:
-								if Matrix[n][m]:
-									matrisResultante[i][j] += 1
-							except Exception as e:
-								pass
 	return matrisResultante
 
 
