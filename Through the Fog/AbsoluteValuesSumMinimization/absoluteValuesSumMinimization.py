@@ -7,4 +7,3 @@ def absoluteValuesSumMinimization(a):
 		return int(a[int(mitad -1)] )
 	else:
 		return int(a[int(mitad)])
-
